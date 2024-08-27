@@ -21,5 +21,8 @@
 
 			return items[rand.Next(items.Count)];
 		}
+
+		public static string Capitalize(this string str)
+			=> str is null || str.Length == 0 ? "" : char.ToUpper(str[0]) + str[1..];
 	}
 }

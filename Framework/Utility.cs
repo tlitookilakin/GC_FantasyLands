@@ -13,10 +13,7 @@ namespace FantasyLands;
 
 		while (true)
 		{
-			char key = Console.ReadKey().KeyChar;
-
-			// deletes echoed keystroke from output
-			Console.Write("\b\\\b");
+			char key = Console.ReadKey(true).KeyChar;
 
 			switch (key)
 			{

@@ -13,7 +13,7 @@ namespace FantasyLands.Framework
 			Console.ReadKey();
 			Console.Clear();
 			Console.WriteLine($"Round {round}: {enemy.Name}!\n");
-			Console.WriteLine("\t\t\tBEGIN!\n");
+			Console.WriteLine("\tBEGIN!\n");
 
 			while (hero.Health > 0 && enemy.Health > 0)
 			{

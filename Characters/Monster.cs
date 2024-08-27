@@ -46,7 +46,7 @@ namespace FantasyLands.Characters
 		public static List<Monster> Monsters = [
 			new("Goblin", 4, 1, 3, ["Sword", "Dagger", "Baguette"]),
 			new("Chef", 2, 1, 1, ["Baguette"]),
-			new("Theif", 5, 2, 4, ["Dagger", "Flame Dagger"]),
+			new("Theif", 5, 2, 4, ["Dagger", "Flame_Dagger"]),
 			new("Wizard", 5, 2, 6, ["Healing_Stick", "Baguette"]),
 			new("Fighter", 7, 3, 5, ["Sword", "Dagger", "Flame_Dagger", "Moonlit_Spear"]),
 			new("Reaper", 10, 4, 8, ["Soul_Scythe"])
