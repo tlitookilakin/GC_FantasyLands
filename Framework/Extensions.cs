@@ -13,5 +13,13 @@
 			int offset = range.End.IsFromEnd ? -1 : 1;
 			return new Range(range.Start, new(range.End.Value + offset, range.End.IsFromEnd));
 		}
+
+		public static T? SelectFrom<T>(this Random rand, IReadOnlyList<T> items)
+		{
+			if (items.Count == 0)
+				return default;
+
+			return items[rand.Next(items.Count)];
+		}
 	}
 }
